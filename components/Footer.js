@@ -25,7 +25,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+              <a href="tel:7011806146" class="mr-4 hover:underline md:mr-6 ">
                 7011806146
               </a>
             </li>
@@ -38,7 +38,10 @@ export default function Footer() {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="block text-sm pb-2 text-gray-500 sm:text-center dark:text-gray-400">
-          Site Designed and Made by: <a class="hover:underline">AV WebWorks™</a>
+          Site Designed and Made by:{" "}
+          <a href="tel:7503909232" class="hover:underline">
+            AV WebWorks™
+          </a>
           .
         </span>
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">

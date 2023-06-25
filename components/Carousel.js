@@ -1,16 +1,10 @@
-"use client";
-import useEmblaCarousel from "embla-carousel-react";
-import { useRef } from "react";
+import C1 from "../public/Cimg.jpg";
+import Image from "next/image";
 
 const Carousel = () => {
-  const [emblaRef] = useEmblaCarousel();
   return (
-    <div className="embla" ref={emblaRef}>
-      <div className="embla__container">
-        <div className="embla__slide">Slide 1</div>
-        <div className="embla__slide">Slide 2</div>
-        <div className="embla__slide">Slide 3</div>
-      </div>
+    <div>
+      <Image src={C1} className="w-full md:h-2/3 h-1/2"></Image>
     </div>
   );
 };

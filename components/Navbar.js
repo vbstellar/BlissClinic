@@ -11,7 +11,7 @@ const Nav = () => {
   };
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-gradient-to-t from-royal-blue-400 to-royal-blue-800 p-3 ">
+      <nav className="flex items-center flex-wrap bg-royal-blue-900 p-3 ">
         <Link href="/" className="inline-flex items-center p-2 mr-4 ">
           <svg
             viewBox="0 0 24 24"
