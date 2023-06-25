@@ -6,7 +6,7 @@ import I4 from "../public/hair.jpg";
 
 export default function Services() {
   return (
-    <div className="bg-royal-blue-900 p-20">
+    <div className="bg-royal-blue-900 md:p-20 p-4">
       <div className="">
         <h1 className="text-3xl text-center text-gray-100 font-bold ">
           Services We Offer

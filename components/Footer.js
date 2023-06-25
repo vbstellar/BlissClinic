@@ -1,14 +1,13 @@
+import logo from "../public/logo2.png";
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer class="bg-white shadow dark:bg-royal-blue-950">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a href="/" class="flex items-center mb-4 sm:mb-0">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8 mr-3"
-              alt="Bliss Logo"
-            />
+            <Image src={logo} className="h-12 w-12 mr-2" />
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Bliss Fertility Homeopathic Clinic
             </span>

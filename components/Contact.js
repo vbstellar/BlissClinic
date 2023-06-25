@@ -2,7 +2,7 @@ import Form from "./Form.js";
 
 export default function Contact() {
   return (
-    <div className="p-20">
+    <div className="md:p-20 p-4">
       <div>
         <h1 className="text-3xl text-center text-gray-600 font-bold">
           Contact Us

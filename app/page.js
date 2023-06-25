@@ -8,10 +8,19 @@ export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <main>
-      <Carousel />
-      <About />
-      <Services />
-      <Contact />
+      <div id="section1">
+        <Carousel />
+      </div>
+      <div id="section2">
+        <About />
+      </div>
+      <div id="section3">
+        {" "}
+        <Services />
+      </div>
+      <div id="section4">
+        <Contact />
+      </div>
     </main>
   );
 }

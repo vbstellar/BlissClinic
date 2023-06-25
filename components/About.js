@@ -3,7 +3,7 @@ import Doc from "../public/docImg.jpg";
 
 export default function About() {
   return (
-    <div className="p-20">
+    <div className="md:p-20 p-4">
       <div className="grid md:grid-cols-2 gap-20">
         <div className="">
           <h1 className="text-4xl text-gray-600 font-bold">Doctor</h1>
