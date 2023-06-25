@@ -12,21 +12,31 @@ export default function About() {
           </h1>
           <hr className="h-2 my-2 bg-gray-500 rounded-lg w-52" />
           <p className="text-gray-500 font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint
+            Dr. Meenakshi Bagga is a highly skilled and experienced doctor with
+            qualifications in BHMS (Bachelor of Homeopathic Medicine and
+            Surgery) and PGD ND (Post Graduate Diploma in Naturopathy and
+            Dietetics). With her strong educational background and specialized
+            training, she possesses a deep understanding of holistic healthcare
+            approaches.
           </p>
-          <p className="text-gray-500 font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint
-          </p>
+
+          <ul className="text-gray-500 py-4">
+            <li>☑️ Pregnancy Test</li>
+            <li>☑️ Blood Sugar Test</li>
+            <li>☑️ Gynaecological Disorder</li>
+            <li>☑️ Infertility Evaluation / Treatment</li>
+            <li>☑️ Obesity and other Lifestyle Disease Modifications</li>
+            <li>☑️ Chronic Diseases</li>
+            <li>☑️ Kidney Stone Treatment</li>
+            <li>☑️ PCOD/PCOS Treatment</li>
+            <li>☑️ Menstrual Disorders in Adolescent Girls</li>
+            <li>☑️ Pre and Post Delivery Care</li>
+            <li>☑️ Diseases in Pregnancy</li>
+            <li>☑️ Nutrition for Pregnant Women</li>
+            <li>☑️ Obesity Treatment</li>
+            <li>☑️ Bronchial Asthma Treatment</li>
+            <li>☑️ Pelvic Tumours</li>
+          </ul>
         </div>
         <div className="flex justify-center items-center">
           <Image src={Doc} className="h-2/3 w-2/3 rounded-full"></Image>
