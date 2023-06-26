@@ -20,22 +20,22 @@ export default function About() {
             approaches.
           </p>
 
-          <ul className="text-gray-500 py-4">
-            <li>☑️ Pregnancy Test</li>
-            <li>☑️ Blood Sugar Test</li>
-            <li>☑️ Gynaecological Disorder</li>
-            <li>☑️ Infertility Evaluation / Treatment</li>
-            <li>☑️ Obesity and other Lifestyle Disease Modifications</li>
-            <li>☑️ Chronic Diseases</li>
-            <li>☑️ Kidney Stone Treatment</li>
-            <li>☑️ PCOD/PCOS Treatment</li>
-            <li>☑️ Menstrual Disorders in Adolescent Girls</li>
-            <li>☑️ Pre and Post Delivery Care</li>
-            <li>☑️ Diseases in Pregnancy</li>
-            <li>☑️ Nutrition for Pregnant Women</li>
-            <li>☑️ Obesity Treatment</li>
-            <li>☑️ Bronchial Asthma Treatment</li>
-            <li>☑️ Pelvic Tumours</li>
+          <ul className="text-gray-500 py-4 list-disc">
+            <li>Pregnancy Test</li>
+            <li>Blood Sugar Test</li>
+            <li>Gynaecological Disorder</li>
+            <li>Infertility Evaluation / Treatment</li>
+            <li>Obesity and other Lifestyle Disease Modifications</li>
+            <li>Chronic Diseases</li>
+            <li>Kidney Stone Treatment</li>
+            <li>PCOD/PCOS Treatment</li>
+            <li>Menstrual Disorders in Adolescent Girls</li>
+            <li>Pre and Post Delivery Care</li>
+            <li>Diseases in Pregnancy</li>
+            <li>Nutrition for Pregnant Women</li>
+            <li>Obesity Treatment</li>
+            <li>Bronchial Asthma Treatment</li>
+            <li>Pelvic Tumours</li>
           </ul>
         </div>
         <div className="flex justify-center items-center">
