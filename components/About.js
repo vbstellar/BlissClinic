@@ -20,7 +20,7 @@ export default function About() {
             approaches.
           </p>
 
-          <ul className="text-gray-500 py-4 list-disc">
+          <ul className="text-gray-500 py-4 px-4 list-disc">
             <li>Pregnancy Test</li>
             <li>Blood Sugar Test</li>
             <li>Gynaecological Disorder</li>
