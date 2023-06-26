@@ -6,10 +6,10 @@ import logo from "../public/logo2.png";
 const Nav = () => {
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-royal-blue-900 p-3 ">
+      <nav className="flex items-center flex-wrap bg-royal-blue-900 sm:p-3 ">
         <Link href="/" className="inline-flex items-center p-2 mr-4 ">
           <Image src={logo} className="h-12 w-12 mr-2" />
-          <span className="text-2xl text-white font-medium uppercase tracking-wide">
+          <span className="text-lg sm:text-2xl text-white font-medium uppercase tracking-wide">
             Bliss Fertility Homeopathic Clinic
           </span>
         </Link>
